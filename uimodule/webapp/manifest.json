@@ -72,7 +72,7 @@
       "routes": [
         {
           "name": "RouteMainView",
-          "pattern": "RouteMainView",
+          "pattern": "",
           "target": [
             "TargetMainView"
           ]
@@ -89,7 +89,7 @@
         "TargetMainView": {
           "viewType": "XML",
           "viewLevel": 1,
-          "viewId": "idAppControl",
+          "viewId": "view1",
           "viewName": "MainView"
         },
         "TargetSecondView":{
