@@ -3,5 +3,12 @@ sap.ui.define([
 ], function(Controller) {
   "use strict";
 
-  return Controller.extend("com.jhr.Ui5Learning.controller.MainView", {});
+  return Controller.extend("com.jhr.Ui5Learning.controller.MainView", {
+
+    onPress: function(){
+
+      var loRouter = sap.ui.core.UIComponent.getRouterFor(this);
+          loRouter.navTo("SecondView");
+    }
+  });
 });

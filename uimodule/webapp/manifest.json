@@ -76,6 +76,13 @@
           "target": [
             "TargetMainView"
           ]
+        },
+        {
+          "name": "SecondView",
+          "pattern": "SecondView",
+          "target": [
+            "TargetSecondView"
+          ]
         }
       ],
       "targets": {
@@ -84,6 +91,12 @@
           "viewLevel": 1,
           "viewId": "idAppControl",
           "viewName": "MainView"
+        },
+        "TargetSecondView":{
+          "viewType": "XML",
+          "viewLevel": 1,
+          "viewId": "view2",
+          "viewName": "SecondView"
         }
       }
     }

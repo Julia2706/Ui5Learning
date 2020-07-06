@@ -4,9 +4,17 @@
   xmlns:mvc="sap.ui.core.mvc">
   <App id="idAppControl" >
     <pages>
-      <Page title="{i18n>title}">
-        <content></content>
-      </Page>
-    </pages>
+        <Page title="{i18n>title}">
+          <content>
+            <Button text="Change View"
+                press="onPress"
+                ariaDescribedBy="defaultButtonDescription genericButtonDescription">
+              <layoutData>
+                <FlexItemData growFactor="1" />
+              </layoutData>
+            </Button>
+          </content>
+        </Page>
+      </pages>   
   </App>
 </mvc:View>
